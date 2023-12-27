@@ -1,0 +1,3 @@
+[submodule "rreact-from-lumi"]
+	path = rreact-from-lumi
+	url = https://github.com/LFZanatta/rreact-from-lumi.git
