@@ -35,6 +35,20 @@ Follow these steps to set up and run the Energy Consumption Dashboard locally:
     npm install
 
 ## You can also change .env variables to an correct file_path, port and database configs
+    At backend/src create an file named .env and add vars likes:
+
+    FILES_PATH = 'C:\\Download\\faturas\\'
+    PORT=3001
+
+    PG_HOST=localhost
+    PG_USER=postgres
+    PG_PORT=5432
+    PG_PASSWORD=postgres
+    PG_DATABASE=lumi
+
+    At rreact-from-lumi/ create an file named .env and add vars like:
+    REACT_APP_API_URL=http://localhost:3001/api/invoiceData
+    REACT_APP_DOWNLOAD_URL=http://localhost:3001/download/
 
 # Running the Application
 ### Start the backend server:
