@@ -51,6 +51,9 @@ Follow these steps to set up and run the Energy Consumption Dashboard locally:
     REACT_APP_DOWNLOAD_URL=http://localhost:3001/download/
 
 # Running the Application
+
+## BEFORE STARTING THE WEB APP, REMEMBER TO START PYTHON SCRAPPER AND FETCH DATA TO DB
+
 ### Start the backend server:
     cd backend
     node index.js
